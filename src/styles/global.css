@@ -1,20 +1,25 @@
 :root {
-  font-family: Arial, Helvetica, sans-serif;
+  --font-body: Arial, Helvetica, sans-serif;
+  --font-title: "Array", sans-serif;
+  font-family: var(--font-body);
   line-height: 1.5;
-  color: #1f1f1f;
-  background: #f4f4f4;
+  color: var(--color-text);
+  background: var(--color-background);
 }
 
 * {
   box-sizing: border-box;
 }
 
+html,
 body {
   margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
 }
 
 a {
-  color: inherit;
+  color: var(--color-text);
 }
 
 img {
@@ -33,4 +38,12 @@ p {
   max-width: 960px;
   margin: 0 auto;
   padding: 24px 16px 64px;
+}
+
+.navbar__brand,
+.home__hero-text h1,
+.activities__header h1,
+.members__header h1 {
+  font-family: var(--font-title);
+  font-weight: 600;
 }

@@ -1,9 +1,21 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="green">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Sociedad Kwai</title>
+    <link
+      rel="stylesheet"
+      href="https://api.fontshare.com/v2/css?f[]=array@600&display=swap"
+    />
+    <script>
+      (function () {
+        var saved = localStorage.getItem("kwai-theme");
+        if (saved === "green" || saved === "desert" || saved === "cold") {
+          document.documentElement.setAttribute("data-theme", saved);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -6,8 +6,8 @@
 
 .home__hero-image {
   width: 100%;
-  border: 1px solid #c8c8c8;
-  background: #e8e8e8;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-muted);
 }
 
 .home__section-list {
@@ -18,8 +18,8 @@
 .home__section-link {
   display: block;
   padding: 16px;
-  background: #ffffff;
-  border: 1px solid #c8c8c8;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
   text-decoration: none;
 }
 

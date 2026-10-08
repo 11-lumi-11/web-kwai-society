@@ -1,0 +1,37 @@
+.theme-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.theme-switcher__button {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border: 2px solid;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.theme-switcher__button[data-swatch="green"] {
+  border-color: #335c50;
+  background: #c7d5d1;
+  color: #335c50;
+}
+
+.theme-switcher__button[data-swatch="desert"] {
+  border-color: #5d4124;
+  background: #fde0a9;
+  color: #5d4124;
+}
+
+.theme-switcher__button[data-swatch="cold"] {
+  border-color: #35637a;
+  background: #ced3df;
+  color: #35637a;
+}
+
+.theme-switcher__button.is-active {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}

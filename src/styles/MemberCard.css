@@ -1,7 +1,7 @@
 .member-card {
   display: block;
-  background: #ffffff;
-  border: 1px solid #c8c8c8;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
   text-decoration: none;
 }
 
@@ -9,7 +9,7 @@
   width: 100%;
   height: 180px;
   object-fit: cover;
-  background: #e8e8e8;
+  background: var(--color-surface-muted);
 }
 
 .member-card__body {
@@ -18,7 +18,7 @@
 
 .member-card__category {
   margin-bottom: 4px;
-  color: #555555;
+  color: var(--color-text-muted);
   font-size: 0.85rem;
 }
 
