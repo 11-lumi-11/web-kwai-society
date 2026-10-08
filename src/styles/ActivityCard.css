@@ -1,0 +1,32 @@
+.activity-card {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #c8c8c8;
+  text-decoration: none;
+}
+
+.activity-card__image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: #e8e8e8;
+}
+
+.activity-card__body {
+  padding: 16px;
+}
+
+.activity-card__title {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.activity-card__date {
+  margin-bottom: 8px;
+  color: #555555;
+  font-size: 0.9rem;
+}
+
+.activity-card__description {
+  margin-bottom: 0;
+}

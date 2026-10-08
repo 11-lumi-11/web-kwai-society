@@ -1,0 +1,20 @@
+.members__header {
+  margin-bottom: 24px;
+}
+
+.members__grid {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 720px) {
+  .members__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 960px) {
+  .members__grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

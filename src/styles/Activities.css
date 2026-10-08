@@ -1,0 +1,14 @@
+.activities__header {
+  margin-bottom: 24px;
+}
+
+.activities__grid {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 720px) {
+  .activities__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

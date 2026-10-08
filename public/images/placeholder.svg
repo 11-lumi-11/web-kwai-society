@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#d8d8d8"/>
+  <text x="400" y="250" text-anchor="middle" fill="#555555" font-family="sans-serif" font-size="28">
+    Imagen placeholder
+  </text>
+</svg>

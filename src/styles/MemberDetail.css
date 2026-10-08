@@ -1,0 +1,32 @@
+.member-detail__layout {
+  display: grid;
+  gap: 24px;
+}
+
+.member-detail__photo {
+  width: 100%;
+  border: 1px solid #c8c8c8;
+  background: #e8e8e8;
+}
+
+.member-detail__category {
+  margin-bottom: 4px;
+  color: #555555;
+}
+
+.member-detail__likes {
+  padding-left: 18px;
+}
+
+.member-detail__quote {
+  margin: 16px 0 0;
+  padding-left: 12px;
+  border-left: 3px solid #c8c8c8;
+}
+
+@media (min-width: 720px) {
+  .member-detail__layout {
+    grid-template-columns: 280px 1fr;
+    align-items: start;
+  }
+}

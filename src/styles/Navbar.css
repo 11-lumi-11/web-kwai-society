@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  border-bottom: 1px solid #d0d0d0;
+  background: #ffffff;
+}
+
+.navbar__brand {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 16px;
+}
+
+.navbar__links a {
+  text-decoration: none;
+}
+
+.navbar__links a.active {
+  font-weight: 700;
+  text-decoration: underline;
+}
